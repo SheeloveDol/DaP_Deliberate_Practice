@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  border: 1px blue solid;
+  width: 80%;
+  margin: 3em auto;
+  padding: 30em;
+  background-color:brown
+}
+
+.box {
+  border: 1px red solid;
+  text-align: center;
+  margin: 2em
+}
+
+.box-1 {
+  background-color: pink;
+  position: sticky;
+  top: 25rem;
+}
+
+.box-2 {
+  position: relative;
+  z-index: 1;
+}
